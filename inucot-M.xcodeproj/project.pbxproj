@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		068B3CEB95BDC3275E6A945D /* ODataOnboardingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7695BCEA910F6A90404BBE /* ODataOnboardingStep.swift */; };
+		0F5BCE0E8FA692C53D65268D /* SAPFioriLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132EC24E2A83E8733175E64 /* SAPFioriLoadingIndicator.swift */; };
+		1277F7611F8E66AF0060AF58 /* SAPLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */; };
+		19448ACBDDD1F0AA677C44D0 /* ApplicationUIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878261D611901DCAAE85F2F /* ApplicationUIManager.swift */; };
+		1DEA06705F8FB0AC2D8E7484 /* VisitorTypeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08260C4561169947DEC2EAE6 /* VisitorTypeDetailViewController.swift */; };
+		2C31DE6634058A1C17256961 /* Inucot_xsodata_mobile_services_destinationOnlineODataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AEEE5C8C5188A7A70282CC /* Inucot_xsodata_mobile_services_destinationOnlineODataController.swift */; };
+		3073B5A870A6CD07B00FCAB7 /* VisitorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919B8723BD1B1BE15B2C9D0B /* VisitorType.swift */; };
+		3702CF3569F0E8E4A46B5F5E /* VisitType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC22FCC3BCD49B238C8E7E5 /* VisitType.swift */; };
+		3FC2F501CF41B3185FBB7234 /* LocationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5486E079BA8B8187AB6B1139 /* LocationType.swift */; };
+		4D27C405F6E417D65E7CB0B3 /* OnboardingErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF60C7D6A533EBA9B91FFA97 /* OnboardingErrorHandler.swift */; };
+		562BFFB81FB8E00FDB78C05D /* LocationTypeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9755B67E6B2FEB7A3EC2ECF /* LocationTypeDetailViewController.swift */; };
+		6868D3B4DBBEA307B41E6072 /* ConfigurationProvider.plist in Sources */ = {isa = PBXBuildFile; fileRef = 6930B2B757162FA3FE01359E /* ConfigurationProvider.plist */; };
+		6995A6C0F7751BA473BBC30B /* VisitTypeMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8601A0454B6808400CC640E /* VisitTypeMasterViewController.swift */; };
+		7A1315B91D4B982000A5DA56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1315B81D4B982000A5DA56 /* AppDelegate.swift */; };
+		7A1315C21D4B982000A5DA56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A1315C11D4B982000A5DA56 /* Assets.xcassets */; };
+		7A1315C51D4B982000A5DA56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */; };
+		7A16F06D1FD1B3C700D2FABD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7A16F06C1FD1B3C700D2FABD /* README.md */; };
+		7A5744B621DE553600E58C7F /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5744B521DE553600E58C7F /* UITests.swift */; };
+		7C9D022200065608B8DB5AC5 /* VisitorType.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD4E74359FFB6BB43CAEA5C /* VisitorType.storyboard */; };
+		7F26FC088406525DBDA74BB8 /* VisitType.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D0AB90B2026E3DF76368C3 /* VisitType.storyboard */; };
+		857FE8B58066B29A8D6F19B9 /* V2MetadataText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62016BC35C842DECE0EE71C6 /* V2MetadataText.swift */; };
+		915DAA6D23E44C130000EA22 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		91937982232F7A38001F9DAC /* SAPCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9193797D232F7A38001F9DAC /* SAPCommon.xcframework */; };
+		91937983232F7A38001F9DAC /* SAPCommon.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9193797D232F7A38001F9DAC /* SAPCommon.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		91937984232F7A38001F9DAC /* SAPFioriFlows.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9193797E232F7A38001F9DAC /* SAPFioriFlows.xcframework */; };
+		91937985232F7A38001F9DAC /* SAPFioriFlows.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9193797E232F7A38001F9DAC /* SAPFioriFlows.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		91937986232F7A38001F9DAC /* SAPFiori.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9193797F232F7A38001F9DAC /* SAPFiori.xcframework */; };
+		91937987232F7A38001F9DAC /* SAPFiori.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9193797F232F7A38001F9DAC /* SAPFiori.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		91937988232F7A38001F9DAC /* SAPFoundation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91937980232F7A38001F9DAC /* SAPFoundation.xcframework */; };
+		91937989232F7A39001F9DAC /* SAPFoundation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91937980232F7A38001F9DAC /* SAPFoundation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9193798A232F7A39001F9DAC /* SAPOData.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91937981232F7A38001F9DAC /* SAPOData.xcframework */; };
+		9193798B232F7A39001F9DAC /* SAPOData.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 91937981232F7A38001F9DAC /* SAPOData.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9AAEAC597F2D306B3CC449CD /* V2StaticResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A8D35C81DFB403A4A22EE0 /* V2StaticResolver.swift */; };
+		9B868851E9961F78005E4BAC /* V2Metadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305E7609A996C54A3688E101 /* V2Metadata.swift */; };
+		9C81F1E1382E14B1B32C88B4 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF762C73694306F9C94F3407 /* AlertHelper.swift */; };
+		9D0436ADA79CA3BD1704C901 /* LocationType.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5158B892CBAEB9136903C056 /* LocationType.storyboard */; };
+		A2C1DDCCA627832B26F8E89D /* DestinationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9E7D99B3E23F9CDEDA4C4 /* DestinationsViewController.swift */; };
+		A9F8FDA6228C2E0ED786FAF9 /* CellCreationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387397BCCC5310892E5C6B7 /* CellCreationHelper.swift */; };
+		AD51F682D6AA49B4CCB55DA0 /* Inucot_xsodata_mobile_services_destination.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D701ADABA9066C3CB2CAF29 /* Inucot_xsodata_mobile_services_destination.storyboard */; };
+		B07BDF836F31DEF42A15F8D0 /* V2Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B606D5478B44F0A85D48C639 /* V2Factory.swift */; };
+		B714AFBF7C8B71F139029F7C /* OnboardingFlowProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B623E0528E3B59ABA0F533 /* OnboardingFlowProvider.swift */; };
+		BBAB529A46ACBACAEEF52A85 /* Inucot_xsodata_mobile_services_destinationCollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58891CE80E903CDE60BFBEA7 /* Inucot_xsodata_mobile_services_destinationCollectionType.swift */; };
+		CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCA7A9B1E3778A9001AF49E /* Main.storyboard */; };
+		D4232D1EE939AE1255D10DD7 /* V2MetadataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F4E1B01D3FAE43924AB5F /* V2MetadataParser.swift */; };
+		D611EF0225DC87491814632C /* ODataControlling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C617C799BC98DD104081AB35 /* ODataControlling.swift */; };
+		D95BE02DA4F85BEE3E1BE990 /* VisitorTypeMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09AEE40CD06608BF73997F7 /* VisitorTypeMasterViewController.swift */; };
+		D9D98B7D39C0ED4069AA12DE /* V2MetadataChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C892490015F55CCE8CBF82 /* V2MetadataChanges.swift */; };
+		DAF08E147651DF3636177549 /* Inucot_xsodata_mobile_services_destinationCollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C505AF32821BD2C4A5B40E /* Inucot_xsodata_mobile_services_destinationCollectionsViewController.swift */; };
+		DAFA397E603E21D26048A753 /* LocationTypeMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91E6537F0344D577E64F257 /* LocationTypeMasterViewController.swift */; };
+		F0728313FEDB1657E0B9A776 /* VisitTypeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB55C59ADD43545E1779F25F /* VisitTypeDetailViewController.swift */; };
+		F15C2AE500A81C17C1E70488 /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC1BA6E383CE85A86999134 /* LocalizedStrings.swift */; };
+		F2D52EFC21381D3D0644780F /* V2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA63E3F0A08AA96468898EE6 /* V2.swift */; };
+		F54F510831B894EBDC755D85 /* AppParameters.plist in Sources */ = {isa = PBXBuildFile; fileRef = 1D94E0B58A9B03FD7D6A4D8D /* AppParameters.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A5744B821DE553700E58C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A1315AD1D4B982000A5DA56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A1315B41D4B982000A5DA56;
+			remoteInfo = "inucot-M";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		758AC1C31D5A265200311F39 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				91937987232F7A38001F9DAC /* SAPFiori.xcframework in Embed Frameworks */,
+				91937985232F7A38001F9DAC /* SAPFioriFlows.xcframework in Embed Frameworks */,
+				915DAA6D23E44C130000EA22 /* BuildFile in Embed Frameworks */,
+				9193798B232F7A39001F9DAC /* SAPOData.xcframework in Embed Frameworks */,
+				91937989232F7A39001F9DAC /* SAPFoundation.xcframework in Embed Frameworks */,
+				91937983232F7A38001F9DAC /* SAPCommon.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00C9E7D99B3E23F9CDEDA4C4 /* DestinationsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DestinationsViewController.swift; path = ViewControllers/DestinationsViewController.swift; sourceTree = "<group>"; };
+		0132EC24E2A83E8733175E64 /* SAPFioriLoadingIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAPFioriLoadingIndicator.swift; path = Utils/SAPFioriLoadingIndicator.swift; sourceTree = "<group>"; };
+		08260C4561169947DEC2EAE6 /* VisitorTypeDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitorTypeDetailViewController.swift; path = ViewControllers/inucot_xsodata_mobile_services_destination/VisitorType/VisitorTypeDetailViewController.swift; sourceTree = "<group>"; };
+		0A14BE89B8C33AA5FD684E0D /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VisitType.storyboard; sourceTree = "<group>"; };
+		0B7695BCEA910F6A90404BBE /* ODataOnboardingStep.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ODataOnboardingStep.swift; path = OData/ODataOnboardingStep.swift; sourceTree = "<group>"; };
+		0EC22FCC3BCD49B238C8E7E5 /* VisitType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitType.swift; path = "Proxy Classes/public/VisitType.swift"; sourceTree = "<group>"; };
+		1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SAPLogo@2x.png"; sourceTree = "<group>"; };
+		1D94E0B58A9B03FD7D6A4D8D /* AppParameters.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = AppParameters.plist; path = Onboarding/AppParameters.plist; sourceTree = "<group>"; };
+		305E7609A996C54A3688E101 /* V2Metadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = V2Metadata.swift; path = "Proxy Classes/public/V2Metadata.swift"; sourceTree = "<group>"; };
+		39C505AF32821BD2C4A5B40E /* Inucot_xsodata_mobile_services_destinationCollectionsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Inucot_xsodata_mobile_services_destinationCollectionsViewController.swift; path = ViewControllers/inucot_xsodata_mobile_services_destination/Inucot_xsodata_mobile_services_destinationCollectionsViewController.swift; sourceTree = "<group>"; };
+		5486E079BA8B8187AB6B1139 /* LocationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationType.swift; path = "Proxy Classes/public/LocationType.swift"; sourceTree = "<group>"; };
+		550BD11306A55042E9706542 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LocationType.storyboard; sourceTree = "<group>"; };
+		58891CE80E903CDE60BFBEA7 /* Inucot_xsodata_mobile_services_destinationCollectionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Inucot_xsodata_mobile_services_destinationCollectionType.swift; path = Model/Inucot_xsodata_mobile_services_destinationCollectionType.swift; sourceTree = "<group>"; };
+		62016BC35C842DECE0EE71C6 /* V2MetadataText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = V2MetadataText.swift; path = "Proxy Classes/internal/V2MetadataText.swift"; sourceTree = "<group>"; };
+		62A8D35C81DFB403A4A22EE0 /* V2StaticResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = V2StaticResolver.swift; path = "Proxy Classes/internal/V2StaticResolver.swift"; sourceTree = "<group>"; };
+		6930B2B757162FA3FE01359E /* ConfigurationProvider.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = ConfigurationProvider.plist; path = Onboarding/ConfigurationProvider.plist; sourceTree = "<group>"; };
+		7A1315B51D4B982000A5DA56 /* inucot-M.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "inucot-M.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1315B81D4B982000A5DA56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A1315C11D4B982000A5DA56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A1315C41D4B982000A5DA56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A1315C61D4B982000A5DA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A16F06C1FD1B3C700D2FABD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7A5744B321DE553600E58C7F /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A5744B521DE553600E58C7F /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
+		7A5744B721DE553700E58C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8387397BCCC5310892E5C6B7 /* CellCreationHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellCreationHelper.swift; path = Utils/CellCreationHelper.swift; sourceTree = "<group>"; };
+		90D5E32A8059A622604EF0F2 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Inucot_xsodata_mobile_services_destination.storyboard; sourceTree = "<group>"; };
+		9165975B23C5FF91005C31AF /* inucot-M.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "inucot-M.entitlements"; sourceTree = "<group>"; };
+		9193797D232F7A38001F9DAC /* SAPCommon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SAPCommon.xcframework; sourceTree = "<group>"; };
+		9193797E232F7A38001F9DAC /* SAPFioriFlows.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SAPFioriFlows.xcframework; sourceTree = "<group>"; };
+		9193797F232F7A38001F9DAC /* SAPFiori.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SAPFiori.xcframework; sourceTree = "<group>"; };
+		91937980232F7A38001F9DAC /* SAPFoundation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SAPFoundation.xcframework; sourceTree = "<group>"; };
+		91937981232F7A38001F9DAC /* SAPOData.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SAPOData.xcframework; sourceTree = "<group>"; };
+		919B8723BD1B1BE15B2C9D0B /* VisitorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitorType.swift; path = "Proxy Classes/public/VisitorType.swift"; sourceTree = "<group>"; };
+		A09D35E90566C6C6C0B922E6 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VisitorType.storyboard; sourceTree = "<group>"; };
+		A91E6537F0344D577E64F257 /* LocationTypeMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationTypeMasterViewController.swift; path = ViewControllers/inucot_xsodata_mobile_services_destination/LocationType/LocationTypeMasterViewController.swift; sourceTree = "<group>"; };
+		AF762C73694306F9C94F3407 /* AlertHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertHelper.swift; path = Utils/AlertHelper.swift; sourceTree = "<group>"; };
+		B606D5478B44F0A85D48C639 /* V2Factory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = V2Factory.swift; path = "Proxy Classes/internal/V2Factory.swift"; sourceTree = "<group>"; };
+		BF0F4E1B01D3FAE43924AB5F /* V2MetadataParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = V2MetadataParser.swift; path = "Proxy Classes/internal/V2MetadataParser.swift"; sourceTree = "<group>"; };
+		C3AEEE5C8C5188A7A70282CC /* Inucot_xsodata_mobile_services_destinationOnlineODataController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Inucot_xsodata_mobile_services_destinationOnlineODataController.swift; path = OData/Inucot_xsodata_mobile_services_destinationOnlineODataController.swift; sourceTree = "<group>"; };
+		C617C799BC98DD104081AB35 /* ODataControlling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ODataControlling.swift; path = OData/ODataControlling.swift; sourceTree = "<group>"; };
+		C878261D611901DCAAE85F2F /* ApplicationUIManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplicationUIManager.swift; path = Onboarding/ApplicationUIManager.swift; sourceTree = "<group>"; };
+		CB55C59ADD43545E1779F25F /* VisitTypeDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitTypeDetailViewController.swift; path = ViewControllers/inucot_xsodata_mobile_services_destination/VisitType/VisitTypeDetailViewController.swift; sourceTree = "<group>"; };
+		CB909D801E38CA8800218154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D09AEE40CD06608BF73997F7 /* VisitorTypeMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitorTypeMasterViewController.swift; path = ViewControllers/inucot_xsodata_mobile_services_destination/VisitorType/VisitorTypeMasterViewController.swift; sourceTree = "<group>"; };
+		D5B623E0528E3B59ABA0F533 /* OnboardingFlowProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingFlowProvider.swift; path = Onboarding/OnboardingFlowProvider.swift; sourceTree = "<group>"; };
+		D9755B67E6B2FEB7A3EC2ECF /* LocationTypeDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationTypeDetailViewController.swift; path = ViewControllers/inucot_xsodata_mobile_services_destination/LocationType/LocationTypeDetailViewController.swift; sourceTree = "<group>"; };
+		DA63E3F0A08AA96468898EE6 /* V2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = V2.swift; path = "Proxy Classes/public/V2.swift"; sourceTree = "<group>"; };
+		DCC1BA6E383CE85A86999134 /* LocalizedStrings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
+		DF60C7D6A533EBA9B91FFA97 /* OnboardingErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingErrorHandler.swift; path = Onboarding/OnboardingErrorHandler.swift; sourceTree = "<group>"; };
+		E8C892490015F55CCE8CBF82 /* V2MetadataChanges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = V2MetadataChanges.swift; path = "Proxy Classes/internal/V2MetadataChanges.swift"; sourceTree = "<group>"; };
+		F8601A0454B6808400CC640E /* VisitTypeMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisitTypeMasterViewController.swift; path = ViewControllers/inucot_xsodata_mobile_services_destination/VisitType/VisitTypeMasterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A1315B21D4B982000A5DA56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91937986232F7A38001F9DAC /* SAPFiori.xcframework in Frameworks */,
+				91937984232F7A38001F9DAC /* SAPFioriFlows.xcframework in Frameworks */,
+				9193798A232F7A39001F9DAC /* SAPOData.xcframework in Frameworks */,
+				91937988232F7A38001F9DAC /* SAPFoundation.xcframework in Frameworks */,
+				91937982232F7A38001F9DAC /* SAPCommon.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5744B021DE553600E58C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01BB2CEC76364A5B4B9933DA /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				B606D5478B44F0A85D48C639 /* V2Factory.swift */,
+				BF0F4E1B01D3FAE43924AB5F /* V2MetadataParser.swift */,
+				E8C892490015F55CCE8CBF82 /* V2MetadataChanges.swift */,
+				62016BC35C842DECE0EE71C6 /* V2MetadataText.swift */,
+				62A8D35C81DFB403A4A22EE0 /* V2StaticResolver.swift */,
+			);
+			name = internal;
+			sourceTree = "<group>";
+		};
+		071E98244FB23A93E4D9E17F /* VisitorType */ = {
+			isa = PBXGroup;
+			children = (
+				08260C4561169947DEC2EAE6 /* VisitorTypeDetailViewController.swift */,
+				D09AEE40CD06608BF73997F7 /* VisitorTypeMasterViewController.swift */,
+				7BD4E74359FFB6BB43CAEA5C /* VisitorType.storyboard */,
+			);
+			name = VisitorType;
+			sourceTree = "<group>";
+		};
+		31E9313CB43A65647C715A30 /* LocationType */ = {
+			isa = PBXGroup;
+			children = (
+				D9755B67E6B2FEB7A3EC2ECF /* LocationTypeDetailViewController.swift */,
+				A91E6537F0344D577E64F257 /* LocationTypeMasterViewController.swift */,
+				5158B892CBAEB9136903C056 /* LocationType.storyboard */,
+			);
+			name = LocationType;
+			sourceTree = "<group>";
+		};
+		48E4BE1D8089FA41E0152D53 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				1D94E0B58A9B03FD7D6A4D8D /* AppParameters.plist */,
+				6930B2B757162FA3FE01359E /* ConfigurationProvider.plist */,
+				D5B623E0528E3B59ABA0F533 /* OnboardingFlowProvider.swift */,
+				DF60C7D6A533EBA9B91FFA97 /* OnboardingErrorHandler.swift */,
+				C878261D611901DCAAE85F2F /* ApplicationUIManager.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		7A1315AC1D4B982000A5DA56 = {
+			isa = PBXGroup;
+			children = (
+				9165975B23C5FF91005C31AF /* inucot-M.entitlements */,
+				7A16F06C1FD1B3C700D2FABD /* README.md */,
+				7A1315B71D4B982000A5DA56 /* inucot-M */,
+				7A5744B421DE553600E58C7F /* UITests */,
+				7A1315B61D4B982000A5DA56 /* Products */,
+				7A1315CC1D4B990B00A5DA56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A1315B61D4B982000A5DA56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A1315B51D4B982000A5DA56 /* inucot-M.app */,
+				7A5744B321DE553600E58C7F /* UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A1315B71D4B982000A5DA56 /* inucot-M */ = {
+			isa = PBXGroup;
+			children = (
+				7A1315B81D4B982000A5DA56 /* AppDelegate.swift */,
+				CBCA7A9B1E3778A9001AF49E /* Main.storyboard */,
+				7A1315C11D4B982000A5DA56 /* Assets.xcassets */,
+				7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */,
+				1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */,
+				7A1315C61D4B982000A5DA56 /* Info.plist */,
+				E6854A7ECF61904DDDA0D3F2 /* Proxy Classes */,
+				C7CD4FABF4E2E73506FD66FE /* ViewControllers */,
+				892899F82CC8F1650C7F2C82 /* OData */,
+				FBDC24E8907D012CA3090D23 /* Utils */,
+				7EFF4473EA35F1F28FEA0BCD /* Model */,
+				48E4BE1D8089FA41E0152D53 /* Onboarding */,
+				DCC1BA6E383CE85A86999134 /* LocalizedStrings.swift */,
+			);
+			path = "inucot-M";
+			sourceTree = "<group>";
+		};
+		7A1315CC1D4B990B00A5DA56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9193797D232F7A38001F9DAC /* SAPCommon.xcframework */,
+				9193797F232F7A38001F9DAC /* SAPFiori.xcframework */,
+				9193797E232F7A38001F9DAC /* SAPFioriFlows.xcframework */,
+				91937980232F7A38001F9DAC /* SAPFoundation.xcframework */,
+				91937981232F7A38001F9DAC /* SAPOData.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A5744B421DE553600E58C7F /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A5744B521DE553600E58C7F /* UITests.swift */,
+				7A5744B721DE553700E58C7F /* Info.plist */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		7EFF4473EA35F1F28FEA0BCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58891CE80E903CDE60BFBEA7 /* Inucot_xsodata_mobile_services_destinationCollectionType.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		892899F82CC8F1650C7F2C82 /* OData */ = {
+			isa = PBXGroup;
+			children = (
+				C617C799BC98DD104081AB35 /* ODataControlling.swift */,
+				0B7695BCEA910F6A90404BBE /* ODataOnboardingStep.swift */,
+				C3AEEE5C8C5188A7A70282CC /* Inucot_xsodata_mobile_services_destinationOnlineODataController.swift */,
+			);
+			name = OData;
+			sourceTree = "<group>";
+		};
+		C47A6BE9D879E310323161AA /* public */ = {
+			isa = PBXGroup;
+			children = (
+				5486E079BA8B8187AB6B1139 /* LocationType.swift */,
+				0EC22FCC3BCD49B238C8E7E5 /* VisitType.swift */,
+				305E7609A996C54A3688E101 /* V2Metadata.swift */,
+				919B8723BD1B1BE15B2C9D0B /* VisitorType.swift */,
+				DA63E3F0A08AA96468898EE6 /* V2.swift */,
+			);
+			name = public;
+			sourceTree = "<group>";
+		};
+		C5385DE108A454DF8CCC7A95 /* inucot_xsodata_mobile_services_destination */ = {
+			isa = PBXGroup;
+			children = (
+				31E9313CB43A65647C715A30 /* LocationType */,
+				39C505AF32821BD2C4A5B40E /* Inucot_xsodata_mobile_services_destinationCollectionsViewController.swift */,
+				071E98244FB23A93E4D9E17F /* VisitorType */,
+				C9F0A15C5EB8FD88FC993D36 /* VisitType */,
+				8D701ADABA9066C3CB2CAF29 /* Inucot_xsodata_mobile_services_destination.storyboard */,
+			);
+			name = inucot_xsodata_mobile_services_destination;
+			sourceTree = "<group>";
+		};
+		C7CD4FABF4E2E73506FD66FE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				00C9E7D99B3E23F9CDEDA4C4 /* DestinationsViewController.swift */,
+				C5385DE108A454DF8CCC7A95 /* inucot_xsodata_mobile_services_destination */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C9F0A15C5EB8FD88FC993D36 /* VisitType */ = {
+			isa = PBXGroup;
+			children = (
+				CB55C59ADD43545E1779F25F /* VisitTypeDetailViewController.swift */,
+				F8601A0454B6808400CC640E /* VisitTypeMasterViewController.swift */,
+				F9D0AB90B2026E3DF76368C3 /* VisitType.storyboard */,
+			);
+			name = VisitType;
+			sourceTree = "<group>";
+		};
+		E6854A7ECF61904DDDA0D3F2 /* Proxy Classes */ = {
+			isa = PBXGroup;
+			children = (
+				01BB2CEC76364A5B4B9933DA /* internal */,
+				C47A6BE9D879E310323161AA /* public */,
+			);
+			name = "Proxy Classes";
+			sourceTree = "<group>";
+		};
+		FBDC24E8907D012CA3090D23 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8387397BCCC5310892E5C6B7 /* CellCreationHelper.swift */,
+				0132EC24E2A83E8733175E64 /* SAPFioriLoadingIndicator.swift */,
+				AF762C73694306F9C94F3407 /* AlertHelper.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A1315B41D4B982000A5DA56 /* inucot-M */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A1315C91D4B982000A5DA56 /* Build configuration list for PBXNativeTarget "inucot-M" */;
+			buildPhases = (
+				237616AD21AECC9A00B6F8AD /* Refresh SAP Cloud Platform SDK for iOS Frameworks */,
+				AE0C88F52403A30E002A9565 /* Codesign Binaries */,
+				7A1315B11D4B982000A5DA56 /* Sources */,
+				7A1315B21D4B982000A5DA56 /* Frameworks */,
+				7A1315B31D4B982000A5DA56 /* Resources */,
+				758AC1C31D5A265200311F39 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "inucot-M";
+			productName = "inucot-M";
+			productReference = 7A1315B51D4B982000A5DA56 /* inucot-M.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A5744B221DE553600E58C7F /* UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A5744BC21DE553700E58C7F /* Build configuration list for PBXNativeTarget "UITests" */;
+			buildPhases = (
+				7A5744AF21DE553600E58C7F /* Sources */,
+				7A5744B021DE553600E58C7F /* Frameworks */,
+				7A5744B121DE553600E58C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A5744B921DE553700E58C7F /* PBXTargetDependency */,
+			);
+			name = UITests;
+			productName = UITests;
+			productReference = 7A5744B321DE553600E58C7F /* UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A1315AD1D4B982000A5DA56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = SAP;
+				TargetAttributes = {
+					7A1315B41D4B982000A5DA56 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+					7A5744B221DE553600E58C7F = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A1315B41D4B982000A5DA56;
+					};
+				};
+			};
+			buildConfigurationList = 7A1315B01D4B982000A5DA56 /* Build configuration list for PBXProject "inucot-M" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 7A1315AC1D4B982000A5DA56;
+			productRefGroup = 7A1315B61D4B982000A5DA56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A1315B41D4B982000A5DA56 /* inucot-M */,
+				7A5744B221DE553600E58C7F /* UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A1315B31D4B982000A5DA56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A16F06D1FD1B3C700D2FABD /* README.md in Resources */,
+				7A1315C51D4B982000A5DA56 /* LaunchScreen.storyboard in Resources */,
+				7A1315C21D4B982000A5DA56 /* Assets.xcassets in Resources */,
+				CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */,
+				1277F7611F8E66AF0060AF58 /* SAPLogo@2x.png in Resources */,
+				9D0436ADA79CA3BD1704C901 /* LocationType.storyboard in Resources */,
+				7C9D022200065608B8DB5AC5 /* VisitorType.storyboard in Resources */,
+				AD51F682D6AA49B4CCB55DA0 /* Inucot_xsodata_mobile_services_destination.storyboard in Resources */,
+				7F26FC088406525DBDA74BB8 /* VisitType.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5744B121DE553600E58C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		237616AD21AECC9A00B6F8AD /* Refresh SAP Cloud Platform SDK for iOS Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Refresh SAP Cloud Platform SDK for iOS Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "sh ./scripts/refreshframeworks.sh\n";
+			showEnvVarsInLog = 0;
+		};
+		AE0C88F52403A30E002A9565 /* Codesign Binaries */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Codesign Binaries";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python ./scripts/codesign.py\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A1315B11D4B982000A5DA56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A1315B91D4B982000A5DA56 /* AppDelegate.swift in Sources */,
+				B07BDF836F31DEF42A15F8D0 /* V2Factory.swift in Sources */,
+				A2C1DDCCA627832B26F8E89D /* DestinationsViewController.swift in Sources */,
+				D611EF0225DC87491814632C /* ODataControlling.swift in Sources */,
+				068B3CEB95BDC3275E6A945D /* ODataOnboardingStep.swift in Sources */,
+				562BFFB81FB8E00FDB78C05D /* LocationTypeDetailViewController.swift in Sources */,
+				DAF08E147651DF3636177549 /* Inucot_xsodata_mobile_services_destinationCollectionsViewController.swift in Sources */,
+				A9F8FDA6228C2E0ED786FAF9 /* CellCreationHelper.swift in Sources */,
+				1DEA06705F8FB0AC2D8E7484 /* VisitorTypeDetailViewController.swift in Sources */,
+				0F5BCE0E8FA692C53D65268D /* SAPFioriLoadingIndicator.swift in Sources */,
+				D4232D1EE939AE1255D10DD7 /* V2MetadataParser.swift in Sources */,
+				F0728313FEDB1657E0B9A776 /* VisitTypeDetailViewController.swift in Sources */,
+				3FC2F501CF41B3185FBB7234 /* LocationType.swift in Sources */,
+				D9D98B7D39C0ED4069AA12DE /* V2MetadataChanges.swift in Sources */,
+				D95BE02DA4F85BEE3E1BE990 /* VisitorTypeMasterViewController.swift in Sources */,
+				857FE8B58066B29A8D6F19B9 /* V2MetadataText.swift in Sources */,
+				3702CF3569F0E8E4A46B5F5E /* VisitType.swift in Sources */,
+				9B868851E9961F78005E4BAC /* V2Metadata.swift in Sources */,
+				9AAEAC597F2D306B3CC449CD /* V2StaticResolver.swift in Sources */,
+				2C31DE6634058A1C17256961 /* Inucot_xsodata_mobile_services_destinationOnlineODataController.swift in Sources */,
+				3073B5A870A6CD07B00FCAB7 /* VisitorType.swift in Sources */,
+				DAFA397E603E21D26048A753 /* LocationTypeMasterViewController.swift in Sources */,
+				F2D52EFC21381D3D0644780F /* V2.swift in Sources */,
+				6995A6C0F7751BA473BBC30B /* VisitTypeMasterViewController.swift in Sources */,
+				9C81F1E1382E14B1B32C88B4 /* AlertHelper.swift in Sources */,
+				BBAB529A46ACBACAEEF52A85 /* Inucot_xsodata_mobile_services_destinationCollectionType.swift in Sources */,
+				F54F510831B894EBDC755D85 /* AppParameters.plist in Sources */,
+				6868D3B4DBBEA307B41E6072 /* ConfigurationProvider.plist in Sources */,
+				B714AFBF7C8B71F139029F7C /* OnboardingFlowProvider.swift in Sources */,
+				4D27C405F6E417D65E7CB0B3 /* OnboardingErrorHandler.swift in Sources */,
+				19448ACBDDD1F0AA677C44D0 /* ApplicationUIManager.swift in Sources */,
+				F15C2AE500A81C17C1E70488 /* LocalizedStrings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A5744AF21DE553600E58C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A5744B621DE553600E58C7F /* UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A5744B921DE553700E58C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A1315B41D4B982000A5DA56 /* inucot-M */;
+			targetProxy = 7A5744B821DE553700E58C7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5158B892CBAEB9136903C056 /* LocationType.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550BD11306A55042E9706542 /* Base */,
+			);
+			name = LocationType.storyboard;
+			path = ViewControllers/inucot_xsodata_mobile_services_destination/LocationType;
+			sourceTree = "<group>";
+		};
+		7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A1315C41D4B982000A5DA56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7BD4E74359FFB6BB43CAEA5C /* VisitorType.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09D35E90566C6C6C0B922E6 /* Base */,
+			);
+			name = VisitorType.storyboard;
+			path = ViewControllers/inucot_xsodata_mobile_services_destination/VisitorType;
+			sourceTree = "<group>";
+		};
+		8D701ADABA9066C3CB2CAF29 /* Inucot_xsodata_mobile_services_destination.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D5E32A8059A622604EF0F2 /* Base */,
+			);
+			name = Inucot_xsodata_mobile_services_destination.storyboard;
+			path = ViewControllers/inucot_xsodata_mobile_services_destination;
+			sourceTree = "<group>";
+		};
+		CBCA7A9B1E3778A9001AF49E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB909D801E38CA8800218154 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9D0AB90B2026E3DF76368C3 /* VisitType.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A14BE89B8C33AA5FD684E0D /* Base */,
+			);
+			name = VisitType.storyboard;
+			path = ViewControllers/inucot_xsodata_mobile_services_destination/VisitType;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A1315C71D4B982000A5DA56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A1315C81D4B982000A5DA56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A1315CA1D4B982000A5DA56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "inucot-M.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = H8QB58T8ZU;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "inucot-M/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.baykal.inucot-M";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7A1315CB1D4B982000A5DA56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "inucot-M.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = H8QB58T8ZU;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "inucot-M/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "be.baykal.inucot-M";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7A5744BA21DE553700E58C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "inucot-M";
+			};
+			name = Debug;
+		};
+		7A5744BB21DE553700E58C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "inucot-M";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A1315B01D4B982000A5DA56 /* Build configuration list for PBXProject "inucot-M" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1315C71D4B982000A5DA56 /* Debug */,
+				7A1315C81D4B982000A5DA56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A1315C91D4B982000A5DA56 /* Build configuration list for PBXNativeTarget "inucot-M" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A1315CA1D4B982000A5DA56 /* Debug */,
+				7A1315CB1D4B982000A5DA56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A5744BC21DE553700E58C7F /* Build configuration list for PBXNativeTarget "UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A5744BA21DE553700E58C7F /* Debug */,
+				7A5744BB21DE553700E58C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A1315AD1D4B982000A5DA56 /* Project object */;
+}
